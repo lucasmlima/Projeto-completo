@@ -1,0 +1,30 @@
+{
+  "name": "aulavue",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@jambonn/vue-carousel": "^0.1.1",
+    "bootstrap": "^5.3.3",
+    "bootstrap-vue": "^2.23.1",
+    "firebase": "^10.12.1",
+    "sweetalert2": "^11.11.1",
+    "vue": "^3.4.21",
+    "vue-carousel": "^0.18.0",
+    "vue-router": "^4.3.2",
+    "vue-the-mask": "^0.11.1",
+    "vue3-toastify": "^0.2.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.23.0",
+    "vite": "^5.2.8"
+  }
+}
